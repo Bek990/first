@@ -1,0 +1,33 @@
+.hero h2 {
+  padding: 10px 0;
+  gap: 10px;
+  text-transform: capitalize;
+  font-family: interRegular;
+  font-size: 48px;
+}
+p {
+  height: 86;
+  padding-top: 10px 50px;
+  font-size: 18px;
+}
+
+.btn-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 61px;
+  a {
+    text-decoration: none;
+    color: var(--primary-color);
+    text-transform: capitalize;
+    padding: 10px 35px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--primary-color);
+    font-size: 24px;
+    &:hover {
+      color: var(--bg-color);
+      background-color: var(--primary-color);
+    }
+  }
+}

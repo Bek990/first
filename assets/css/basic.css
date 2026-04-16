@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #222222;
+  --secondary-color: #735135;
+  --third-color: #435e5b;
+  --bg-color: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  font-family: interRegular;
+  text-align: center;
+
+  padding-top: 25px 270px;
+  gap: 25px;
+  h2 {
+    text-transform: capitalize;
+  }
+}
+
+.seperator {
+  border: 1px solid #5e5e5e;
+  width: 263px;
+}

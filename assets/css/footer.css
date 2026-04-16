@@ -1,0 +1,17 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 25px 281px;
+}
+.social-links {
+  display: flex;
+  gap: 25px;
+  span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: var(--primary-color);
+  }
+}
